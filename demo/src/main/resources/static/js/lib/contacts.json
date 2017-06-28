@@ -1,0 +1,17 @@
+  [
+	    {
+	      "name": "Capgemini",
+	      "address": "Amazing widgets of outstanding durability",
+	      "mobile": 345345345
+	    },
+	    {
+	      "name": "HP",
+	      "address": "Slacks for an 80s dinner party",
+	      "mobile": 768786786
+	    },
+	    {
+	      "name": "Accenture",
+	      "address": "Brilliant bovine",
+	      "mobile": 123123123
+	    }
+  ]

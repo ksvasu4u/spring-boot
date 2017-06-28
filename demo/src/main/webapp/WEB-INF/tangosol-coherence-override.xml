@@ -1,0 +1,19 @@
+<configurable-cache-factory-config>
+  <class-name system-property="tangosol.coherence.cachefactory">
+    com.tangosol.coherence.spring.SpringAwareCacheFactory
+  </class-name>
+  <init-params>
+    <init-param>
+      <param-type>java.lang.String</param-type>
+      <param-value system-property="tangosol.coherence.cacheconfig">
+        demo-coherence-cache-config.xml
+      </param-value>
+    </init-param>
+    <init-param id="1">
+      <param-type>java.lang.String</param-type>
+      <param-value system-property="tangosol.coherence.springconfig">
+        dispatcherServlet-servlet.xml
+      </param-value>
+    </init-param>
+  </init-params>
+</configurable-cache-factory-config>

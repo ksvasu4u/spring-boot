@@ -1,0 +1,21 @@
+[
+   
+    {
+      "name": "J2EE Solutions",
+      "description": "Donec",
+      "image": "download.jpg"
+    },
+    
+    {
+      "name": "Oracle SOA",
+      "description": "elit",
+      "image": "oracle.jpg"
+    },
+    
+    {
+      "name": "Big Data",
+      "description": "porta",
+      "image": "hadoop.jpg"
+    }
+  
+]

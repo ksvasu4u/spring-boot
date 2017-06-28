@@ -1,0 +1,39 @@
+		<html ng-app="baseApp">
+		<head>
+			
+		</head>
+		<body>
+	 			
+						{{1+1}}
+					  	<form name="contactLogin" ng-controller="ContactLoginCtrl"  ng-submit="authenticate(userModel)">
+								
+								<label  for="name" >UserName:</label>
+								<input  type="text" ng-model="userModel.username" /></br>
+								</br>
+								
+								<label for="password" >PassWord:&nbsp;</label>
+								<input type="password" ng-model="userModel.password"  />
+								</br>
+								</br>
+							    <button type="submit"  name="Login" >Login</button>
+					  
+					  	 </form>
+					  	<script src="http://localhost:7001/demo/angular.min.js"></script>
+					  	<script src="http://localhost:7001/demo/api-check.min.js"></script>
+						
+						<script src="http://localhost:7001/demo/restangular.js"></script> 
+						<script src="http://localhost:7001/demo/underscore-min.js"></script> 
+						<script src="http://localhost:7001/demo/angular-route.min.js"></script>
+						<script src="http://localhost:7001/demo/angular-resource.min.js"></script> 
+						<script src="http://localhost:7001/demo/angular-ui-router.min.js"></script> 
+						<script src="http://localhost:7001/demo/angular-messages.min.js"></script> 
+						<script src="http://localhost:7001/demo/formly.min.js"></script> 	
+						<script src="http://localhost:7001/demo/angular-formly-templates-bootstrap.min.js"></script>
+						
+						<script src="http://localhost:7001/demo/baseApp.js"></script>
+						<script src="http://localhost:7001/demo/baseApp.routes.js"></script>
+						<script src="http://localhost:7001/demo/ContactLogin/controllers/ContactLoginCtrl.js"></script>
+						
+						
+		</body>
+		.</html>
