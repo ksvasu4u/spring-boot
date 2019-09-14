@@ -41,7 +41,7 @@ public class DemoApplication  extends SpringBootServletInitializer implements We
 	      return builder.sources(DemoApplication.class);
 	   }
 	
-	
+Super ra this is new thing	
 	/*
 	 @Bean
 	    ServletRegistrationBean myServletRegistration () {
