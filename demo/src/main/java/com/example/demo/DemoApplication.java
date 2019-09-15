@@ -42,6 +42,7 @@ public class DemoApplication  extends SpringBootServletInitializer implements We
 	   }
 	
 Super ra this is new thing	
+	utter flop changes from spring 7
 	/*
 	 @Bean
 	    ServletRegistrationBean myServletRegistration () {
